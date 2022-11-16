@@ -1,0 +1,38 @@
+* {
+    font-family: Verdana, sans-serif;
+}
+
+.flex-ingredients {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-instructions {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 150px 40px 150px;
+}
+
+.flex-instructions p {
+    width: 50vw;
+}
+
+img {
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+td, th {
+    padding: .5em;
+}
+
+.back {
+    position: absolute;
+    text-decoration: none;
+    padding: 10px;
+}
